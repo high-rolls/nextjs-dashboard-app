@@ -1,0 +1,13 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 34.641px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform-origin: 20px 20px;
+    transition: transform 1s 1s;
+}
+
+.shape:hover {
+    transform: rotate(90deg);
+}
